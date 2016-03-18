@@ -12,7 +12,7 @@ ExternalProject_Add(segwayrmp
   SOURCE_DIR "${CMAKE_CURRENT_BINARY_DIR}/segwayrmp"
   CONFIGURE_COMMAND ""
   BUILD_COMMAND make
-  INSTALL_COMMAND make install
+  INSTALL_COMMAND ""
   UPDATE_COMMAND ""
   BUILD_IN_SOURCE 1
   )
